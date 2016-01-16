@@ -1,2 +1,8 @@
-how are you
-this is revertible
+git diff shows diff between the working directory and the staging area
+git diff --stage shows the diff between staging area and the repo
+git diff commit1 and commit2 shows the diff between two commits i.e, commit1 and commit2
+
+===========BRANCHING===============
+git branch shows the branches currently that repository have
+git branch branch_name creates a branch named branch_name
+git checkout branch_name puts you to that branch
