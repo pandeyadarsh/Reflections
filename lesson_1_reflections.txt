@@ -1,0 +1,24 @@
+    			1	
+the diff command shows the line of adding something 
+and the line of removal of something sorted line wise
+so one can see the difference if the lines are not too long
+
+				2
+easy acces to the entire history of a file provides me with the
+knowledge of how the things have changed and what could have caused 
+that to change so making further changes or debugging will be easy
+
+				3
+To Choose when to commit 
+
+general idea is to commit one logical segment or code or idea
+
+press q to quit out of git log
+
+GIT CLONE
+	git cloning does is copies all the content from the url along with the 
+	history of commits etc.
+
+GIT CHECKOUT
+	git checkout 'commit id' puts back you to that id so you can go back and forth see for the possible errors 
+	e.g., git checkout 25ede836903881848fea811df5b687b59d962da3
