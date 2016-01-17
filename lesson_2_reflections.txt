@@ -14,3 +14,7 @@ Note: this command is used when we checked any previous commits and want to make
 
 git branch -d branch_name -> this command deletes the label of the branch_name
 git  merge --abort this command aborts the merging if in case merging shows some error
+
+Git does two types of merging automatic and manual
+cons of automatic is that some code that one has added other may not want it 
+cons of manual is it takes time
