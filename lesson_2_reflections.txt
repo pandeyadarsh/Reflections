@@ -6,3 +6,8 @@ git diff commit1 and commit2 shows the diff between two commits i.e, commit1 and
 git branch shows the branches currently that repository have
 git branch branch_name creates a branch named branch_name
 git checkout branch_name puts you to that branch
+
+git checkout -b new_branch_name this does two things
+i) git branch new_branch_name
+ii) git checkout new_branch_name
+Note: this command is used when we checked any previous commits and want to make new branch there
