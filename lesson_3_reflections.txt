@@ -1,1 +1,10 @@
+git remote -> shows the name of the remote repo
+git remote add remote_name URL_of_Github repo -> this command creates a remote 
+repository that links with the given URL_of_Github
+git remote -v   -> shows the URL's from where to fetch and push
 
+git push origin master -> this pushes the contents of the remote to the master 
+branch of the GitHub
+
+git pull origin master -> this pulls the contents from the master 
+branch of the GitHub to the remote repo name origin
