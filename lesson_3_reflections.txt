@@ -8,3 +8,7 @@ branch of the GitHub
 
 git pull origin master -> this pulls the contents from the master 
 branch of the GitHub to the remote repo name origin
+
+Forking is cloning repo but only on GitHub
+clones is cloning repo anywhere but it is usually referred for remote
+push is pushing changes from remote to the GitHub
