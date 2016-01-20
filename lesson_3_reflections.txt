@@ -1,3 +1,7 @@
+
+GIT CLONE automatically creates a remote for us named origin so we don't have to create it separatively.
+
+
 git remote -> shows the name of the remote repo
 git remote add remote_name URL_of_Github repo -> this command creates a remote 
 repository that links with the given URL_of_Github
@@ -12,3 +16,19 @@ branch of the GitHub to the remote repo name origin
 Forking is cloning repo but only on GitHub
 clones is cloning repo anywhere but it is usually referred for remote
 push is pushing changes from remote to the GitHub
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+    You can work offline, it saves a lot of data overhead when pushing changes to github and it gives the possibility to do a quick check which changes are made in the online repo compared to the offline repository.
+
+
+Commands:
+
+git remote  |    Show all remote locations for the repository
+git remote add origin url |     Add a new remote location for the repository. Origin is the default name to use when you create only one remote location. Url should be the https url to the github repository.
+
+git remove -v  |    Outputs the remote locations with verbose information (fetch and push urls)
+
+git push origin master  |    Push the master branch to the remote location origin.
+git pull origin master  |    Get the master branch from the remote location origin.
+git pull origin master  |    = Git fetch origin + git merge master origin/master
+git fetch origin  |    Get the changes from the remote location into the (hidden?) origin/master branch
